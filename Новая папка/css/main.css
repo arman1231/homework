@@ -1,0 +1,78 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background-image: url(images/bg.jpg);
+}
+
+.header_topline {
+	background-color: #ccc;
+}
+.auth_buttons{
+	border: 0px;
+	background-color: transparent;
+	font-size: 25px;
+}
+.toplinks{
+	display: inline-block;
+	vertical-align: middle;
+}
+.toplinks a{
+	text-decoration: none;
+	color: #A6E22C;
+}
+.toplinks a:hover{
+	text-decoration: underline;
+}
+
+.soc_buttons {
+	float: right;
+
+}
+
+.soc_buttons a {
+	font-size: 25px;
+	font-color: #A6E22C;
+	color: #A6E22C;
+	margin-left: 10px;
+}
+
+.soc_buttons a:hover {
+	color: #E6DB5A;
+}
+.first_col {
+	background-color: #aaa;
+	text-align: center;
+}
+
+.first_col2 {
+	background-color: #bbb;
+}
+
+.first_col3 {
+	background-color: #ccc;
+}

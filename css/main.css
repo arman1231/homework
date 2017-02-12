@@ -1,0 +1,439 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-size: 16px;
+}
+.top_header{
+	border-bottom: 1px solid #ECECEC;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	font-family: "ProximaNovaRegular";
+	font-size: 12px;
+}
+.top_menu_links{
+	float: left;
+}
+.top_menu_links a{
+	margin-right:  15px;
+	color: black;
+}
+.top_menu_buttons{
+	float: right;
+}
+.top_menu_buttons a{
+	margin-left: 15px;
+	color: black;
+}
+.top_header2{
+	margin-top: 35px;
+}
+.logo img {
+	float: left;
+	padding-right: 5px;
+}
+.logo span{
+	font-family: "ProximaNovaLight";
+	white-space: pre;
+	font-size: 15px;
+}
+.top_header2_text{
+	float: right;
+}
+.thin{
+	margin-left: 15px;
+	font-family: "EurostileOTRegular";
+	font-size: 14px;
+}
+.bold{
+	font-family: "EurostileOTBold";
+	font-size: 25px;
+}
+.search{
+	margin:0 auto;
+	position: relative;
+}
+.search input{
+	font-family: "EurostileOTRegular";
+	font-size: 16px;
+	color:#999999;
+	border: 2px #F7B71E solid;
+	height: 50px;
+	width: 100%;
+	border-radius: 8px;
+	padding-left: 20px;
+}
+.top_header3{
+	margin-top: 25px;
+	background-color: black;
+}
+.top_header3 nav {
+	margin: 0 auto;
+}
+.top_header3 nav ul{
+	list-style-type:none;
+	padding: 0px;
+	margin:0;
+	text-align: center;
+}
+.top_header3 nav ul li{
+	font-family: "EurostileOTBold";
+	font-size: 16px;
+	display: inline;
+	text-transform: uppercase;
+	padding: 0px;
+	margin:0;
+	display: inline-block;
+
+}
+.top_header3 nav ul li a{
+	color: white;
+	display: block;
+	padding:15px 30px;
+	vertical-align: top;
+}
+.main{
+	margin-top: 25px;
+}
+.sidebar{
+	min-width: 265px;
+}
+.caption{
+	background-color: #F7B71E;
+	height: 50px;
+	border-radius: 8px 8px 0 0;
+
+}
+.caption span{
+	float: left;
+	font-family: "EurostileOTBold";
+	font-size: 16px;
+	color: black;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-top: 15px;
+}
+.caption a{
+	float: right;
+	color: black;
+	padding-right: 10px;
+	padding-top: 15px;
+} 
+.list{
+	padding-right: 25px;
+	margin-bottom: 20px;
+	border-radius: 0 0 8px 8px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	
+}
+.list nav{
+	
+
+}
+.list nav ul{
+	list-style-type:none;
+	text-align: left;
+	padding: 0;
+	padding-left: 10px;
+	margin: 0;
+
+}
+
+.list nav ul li{
+	display: block;
+	border-bottom: 1px solid #999999;
+	padding-top: 7px;
+
+}
+.list nav ul li:last-child{
+	display: block;
+	border-bottom: none;
+}
+
+.list nav ul a{
+	color: black;
+	font-family: "EurostileOTRegular";
+	font-size: 14px;
+	display: block;
+	padding-top: 3px;
+
+}
+.slider img{
+	max-width: 100%;
+	position: relative;
+}
+.slider-text{
+	position: absolute;
+	display: block;
+	top: 23px;
+	left: 61px;
+}
+.slider-text h1{
+	font-family: "ProximaNovaRegular";
+	text-transform: uppercase;
+	color: black;
+	font-size: 45px;
+	line-height: 52px;
+	margin: 0;
+	margin-top: 30px;
+}
+.slider-text h2{
+	font-family: "ProximaNovaLight";
+	text-transform: uppercase;
+	color: #F7B71E;
+	font-size: 20px;
+	margin:0;
+}
+.slider-text span{
+	font-family: "ProximaNovaBold";
+	font-size: 25px;
+	display: block;
+	padding-top: 120px;
+}
+.sider-button{
+	position: absolute;
+	margin-top: 10px;
+	
+}
+.sider-button a{
+	font-family: "EurostileOTBold";
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	padding: 8px 20px 8px 20px;
+	background-color: #F7B71E;
+	border-radius: 8px 8px 8px 8px;
+}
+.popular{
+		margin-bottom: 10px;
+}
+.popular span{
+	color: black;
+	font-family: "EurostileOTRegular";
+	font-size: 30px;
+
+}
+.popular_item{
+	margin-bottom: 10px;
+	padding: 15px;
+		border-radius: 8px 8px 8px 8px;
+	border: 1px solid #999999;
+	transition: all 0.9s ease-in-out, opacity 0.3s ease-in-out;
+}
+.popular_item img{
+	width: 100%;
+}
+.item_name{
+	font-family: "ProximaNovaRegular";
+	color: black;
+	font-size: 16px;
+	display: block;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+.item_category{
+	font-family: "ProximaNovaRegular";
+	color: #999999;
+	font-size: 13px;
+	font-style: italic;
+	display: block;
+	padding-left: 5px;
+	margin-bottom: 25px;
+}
+.item_price{
+	display:block;
+	padding-left: 5px;
+	font-family: "ProximaNovaBold";
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.item_button{
+
+}
+.item_button a{
+	font-family: "EurostileOTBold";
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	padding: 8px 20px 8px 20px;
+	background-color: #F7B71E;
+	border-radius: 8px 8px 8px 8px;
+}
+.text-area{
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+.text-area span{
+	font-family: "ProximaNovaRegular";
+	color: black;
+	font-size: 14px;
+}
+.advantages{
+	margin-bottom: 10px;
+}
+.advantages img{
+	display: block;
+	margin: auto;
+}
+.icon_title{
+	font-family: "EurostileOTBold";
+	font-size: 25px;
+	color: black;
+	display: block;
+	text-align: center;
+}
+.icon_text{
+	font-family: "ProximaNovaRegular";
+	color: black;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+}
+.map{
+	position: relative;
+}
+.map-stiker{
+	position: absolute;
+	bottom: 150px;
+	left:35%;
+	background-color: white;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.map-stiker span{
+	display: block;
+	padding: 25px;
+	padding-top: 50px;
+}
+.footer-bottom{
+	background-color: #333333;
+	border-bottom: 10px solid #F7B71E;
+}
+.footer-bottom span{
+	display: block;
+	text-align: center;
+	color: white;
+	padding-top: 42px;
+	padding-bottom:42px;
+	font-family: "ProximaNovaRegular";
+	font-size: 14px;
+}
+
+/* NEW*/
+
+.breadcrumbs span{
+	color: #999999;
+	font-style: italic;
+	font-family: "EurostileOTRegular";
+	font-size: 14px;
+}
+.inner-item-title span{
+	color: black;
+	font-family: "EurostileOTBold";
+	font-size: 24px;
+	display: block;
+	border-bottom: 1px solid #999999;
+	margin-bottom: 10px;
+}
+.inner-item-images img{
+	width: 100%;
+	max-height: 240px;
+	max-width: 320px;
+}
+.inner-item-text span{
+	font-family: "ProximaNovaRegular";
+	font-size: 14px;
+	color: black;
+}
+.inner-item-spec span{
+	font-family: "ProximaNovaRegular";
+	font-size: 14px;
+	color: black;
+}
+.inner-item-price span{
+	font-family: "ProximaNovaRegular";
+	font-size: 30px;
+	color: black;
+	font-style: bold;
+	display: block;
+	margin-top: 25px;
+}
+.callback-form-in{
+	margin-top: 100px;
+	font-family: "ProximaNovaRegular";
+	font-size: 16px;
+	color: black;
+}
+.form-title {
+	display: block;
+	color: black;
+	font-family: "EurostileOTBold";
+	font-size: 24px;
+	display: block;
+	border-bottom: 1px solid #999999;
+	margin-bottom: 10px;
+	margin-bottom: 25px;
+}
+.callback-form-in{
+	margin-bottom: 35px;
+}
+.callback-form-in label, textarea, span{
+	display: block;
+
+}
+#name{
+	float: left;
+	margin-right: 50px;
+	box-shadow: none !important;
+}
+#phone{
+	float: left;
+}
+#form-submit{
+	float: right;
+	font-family: "EurostileOTBold";
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	padding: 8px 20px 8px 20px;
+	background-color: #F7B71E;
+	border-radius: 8px 8px 8px 8px;
+}
+#comment{
+	clear: both;
+}
+.form-pols{
+	border-radius: 8px 8px 8px 8px !important;
+	border-color: #CCCCCC !important;
+	border-collapse: collapse;
+	min-height: 40px;
+	box-shadow: none !important;
+	background: #ffffff !important;
+	outline: none;
+
+}

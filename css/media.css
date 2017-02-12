@@ -1,0 +1,92 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.top_menu_links{
+	text-align: center;
+	float: none;
+	font-size: 14px;
+	transition: all 0.9s ease-in-out, opacity 0.3s ease-in-out;
+}
+.top_menu_buttons{
+	text-align: center;
+	float: none;
+	font-size: 14px;
+	transition: all 0.9s ease-in-out, opacity 0.3s ease-in-out;
+}
+.slider{
+	display: none;
+}
+.map{
+	display: none;
+}
+.lol{
+	visibility: visible;
+	display: block;
+	height: 100px;
+	width: 100px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.top_menu_links{
+	text-align: center;
+	float: none;
+	font-size: 14px;
+	transition: all 0.9s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.top_menu_buttons{
+	text-align: center;
+	float: none;
+	font-size: 14px;
+	transition: all 0.9s ease-in-out, opacity 0.3s ease-in-out;
+}
+.slider{
+	display: none;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
